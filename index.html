@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fetch article</title>
+  </head>
+  <body>
+    <form>
+      <input
+        type="number"
+        id="user-id"
+        placeholder="Entrer un userID (1 - 10)"
+      />
+      <input type="number" id="id" placeholder="Entrer un ID " />
+      <input type="title" id="titre" placeholder="Veuillez entrer un titre" />
+      <input
+        type="text"
+        id="contenu"
+        placeholder="Veuillez entrer un contenu"
+      />
+
+      <button id="btn-get">GET</button>
+      <button id="btn-post">POST</button>
+      <button id="btn-delete">DELETE</button>
+    </form>
+    <div id="status"></div>
+
+    <ul id="articles-container"></ul>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,23 @@
+#article-list {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.article-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.article-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.article-item p {
+  margin: 10px 0 0;
+  color: #666;
+}
